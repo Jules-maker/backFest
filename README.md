@@ -21,10 +21,10 @@ Dates : 03/10/2024 - 04/10/2024
 ## API References
 ## WORK IN PROGRESS ##
 
-#### Get all items
+#### Access
 
 ```http
-  GET /api/items
+  GET /api/public
 ```
 
 | Parameter | Type     | Description                |
