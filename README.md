@@ -24,16 +24,15 @@ Projet d'école qui a pour objectif de créer une application d'accès aux plann
 Dates : 03/10/2024 - 04/10/2024
 
 ## API Reference
-test
-#### Get all items
+#### Get all user
 
 ```http
-  GET /api/items
+  GET /api/users
 ```
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+|   `user`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
 
 #### Get item
 
