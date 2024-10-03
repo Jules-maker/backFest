@@ -5,7 +5,7 @@
 Une application pour avoir accès aux plannings et emplacements de chaque concerts dans un evenement musical
 
 
-## Authors
+## Auteurs
 
 - [Jules-maker](https://github.com/Jules-maker)
 - [Maxime Martz](https://github.com/MaximeMartz)
@@ -18,7 +18,7 @@ Projet d'école qui a pour objectif de créer une application d'accès aux plann
 
 Dates : 03/10/2024 - 04/10/2024
 
-## API Reference
+## API References
 ## WORK IN PROGRESS ##
 
 #### Get all items
