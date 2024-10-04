@@ -25,11 +25,11 @@ Dates : 03/10/2024 - 04/10/2024
 
 ## API Reference
 #### Get all user
-
 ```http
   GET /api/user
 ```
 
+#### Models
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 |   `user`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
@@ -57,12 +57,10 @@ Dates : 03/10/2024 - 04/10/2024
 | `startTime`    | `string` | Heure de début de l'évènement (HH:mm) |
 | `endTime`    | `string` | Heure de fin de l'évènement (HH:mm) |
 
-#### EVENT
+#### GENRE
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `name`    | `string` | Nom de l'évènement |
-| `description`    | `string` | Description de l'évènement |
-| `startTime`    | `string` | Heure de début de l'évènement (HH:mm) |
-| `endTime`    | `string` | Heure de fin de l'évènement (HH:mm) |
-
+| `name`    | `string` | Nom du genre musical |
+| `artists`    | `string` | Remonte les artistes en lien avec le ou les genres musicaux choisis |
+| `events`    | `string` |  ??  |
 
