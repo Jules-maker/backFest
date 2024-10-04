@@ -27,7 +27,7 @@ Dates : 03/10/2024 - 04/10/2024
 #### Get all user
 
 ```http
-  GET /api/users
+  GET /api/user
 ```
 
 | Parameter | Type     | Description                |
