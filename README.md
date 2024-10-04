@@ -35,20 +35,15 @@ Dates : 03/10/2024 - 04/10/2024
 |   `user`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
 
 #### Artist
+| Parameter    | Type     | Description                                                                 |
+|--------------|----------|-----------------------------------------------------------------------------|
+|   `name`     | `string` | Nom de l'artiste.|
+|   `bio`      | `string` | Biographie de l'artiste.|
+|   `genre`    | `string` | Genre musical de l'artiste.|
+|   `image`    | `string` | URL de l'image de l'artiste.|
+|   `socialMedia` | `string` | Liens vers les réseaux sociaux de l'artiste.|
+|   `spotify`  | `string` | Lien Spotify de l'artiste.|
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-|   `name`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
-| :-------- | :------- | :------------------------- |
-|   `bio`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
-| :-------- | :------- | :------------------------- |
-|   `name`  | `string` | Entrez /api/user pour remonter la liste de tout les genres |
-| :-------- | :------- | :------------------------- |
-|   `image`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
-| :-------- | :------- | :------------------------- |
-|   `socialMedia`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
-| :-------- | :------- | :------------------------- |
-|   `spotify`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
 
 events
 
