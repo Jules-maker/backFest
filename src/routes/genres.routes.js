@@ -9,7 +9,7 @@ const router = require("express").Router();
 
 /**
  * @swagger
- * /genres:
+ * /api/genres:
  *   post:
  *     summary: Add a new genre
  *     tags: [Genres]
@@ -29,7 +29,7 @@ router.post("/", addGenre);
 
 /**
  * @swagger
- * /genres:
+ * /api/genres:
  *   get:
  *     summary: Returns a list of genres
  *     tags: [Genres]
@@ -47,7 +47,7 @@ router.get("/", genresList);
 
 /**
  * @swagger
- * /genres/{genreId}:
+ * /api/genres/{genreId}:
  *   get:
  *     summary: Get the genre by id
  *     tags: [Genres]
@@ -72,7 +72,7 @@ router.get("/:genreId", genreDetails);
 
 /**
  * @swagger
- * /genres/{genreId}:
+ * /api/genres/{genreId}:
  *   post:
  *     summary: Update the genre by the id
  *     tags: [Genres]
@@ -101,7 +101,7 @@ router.post("/:genreId", editGenre);
 
 /**
  * @swagger
- * /genres/{genreId}:
+ * /api/genres/{genreId}:
  *   delete:
  *     summary: Remove the genre by id
  *     tags: [Genres]

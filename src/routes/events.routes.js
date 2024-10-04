@@ -9,7 +9,7 @@ const router = require("express").Router();
 
 /**
  * @swagger
- * /events:
+ * /api/events:
  *   post:
  *     summary: Add a new event
  *     tags: [Events]
@@ -29,7 +29,7 @@ router.post("/", addEvent);
 
 /**
  * @swagger
- * /events:
+ * /api/events:
  *   get:
  *     summary: Returns a list of events
  *     tags: [Events]
@@ -47,7 +47,7 @@ router.get("/", eventsList);
 
 /**
  * @swagger
- * /events/{eventId}:
+ * /api/events/{eventId}:
  *   get:
  *     summary: Get the event by id
  *     tags: [Events]
@@ -72,7 +72,7 @@ router.get("/:eventId", eventDetails);
 
 /**
  * @swagger
- * /events/{eventId}:
+ * /api/events/{eventId}:
  *   post:
  *     summary: Update the event by the id
  *     tags: [Events]
@@ -101,7 +101,7 @@ router.post("/:eventId", editEvent);
 
 /**
  * @swagger
- * /events/{eventId}:
+ * /api/events/{eventId}:
  *   delete:
  *     summary: Remove the event by id
  *     tags: [Events]

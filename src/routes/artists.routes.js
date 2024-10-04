@@ -9,7 +9,7 @@ const router = require("express").Router();
 
 /**
  * @swagger
- * /artists:
+ * /api/artists:
  *   post:
  *     summary: Add a new artist
  *     tags: [Artists]
@@ -29,7 +29,7 @@ router.post("/", addArtist);
 
 /**
  * @swagger
- * /artists:
+ * /api/artists:
  *   get:
  *     summary: Returns a list of artists
  *     tags: [Artists]
@@ -47,7 +47,7 @@ router.get("/", artistsList);
 
 /**
  * @swagger
- * /artists/{artistId}:
+ * /api/artists/{artistId}:
  *   get:
  *     summary: Get the artist by id
  *     tags: [Artists]
@@ -72,7 +72,7 @@ router.get("/:artistId", artistDetails);
 
 /**
  * @swagger
- * /artists/{artistId}:
+ * /api/artists/{artistId}:
  *   post:
  *     summary: Update the artist by the id
  *     tags: [Artists]
@@ -101,7 +101,7 @@ router.post("/:artistId", editArtist);
 
 /**
  * @swagger
- * /artists/{artistId}:
+ * /api/artists/{artistId}:
  *   delete:
  *     summary: Remove the artist by id
  *     tags: [Artists]

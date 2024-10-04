@@ -9,7 +9,7 @@ const router = require("express").Router();
 
 /**
  * @swagger
- * /days:
+ * /api/days:
  *   post:
  *     summary: Add a new day
  *     tags: [Days]
@@ -29,7 +29,7 @@ router.post("/", addDay);
 
 /**
  * @swagger
- * /days:
+ * /api/days:
  *   get:
  *     summary: Returns a list of days
  *     tags: [Days]
@@ -47,7 +47,7 @@ router.get("/", daysList);
 
 /**
  * @swagger
- * /days/{dayId}:
+ * /api/days/{dayId}:
  *   get:
  *     summary: Get the day by id
  *     tags: [Days]
@@ -72,7 +72,7 @@ router.get("/:dayId", dayDetails);
 
 /**
  * @swagger
- * /days/{dayId}:
+ * /api/days/{dayId}:
  *   post:
  *     summary: Update the day by the id
  *     tags: [Days]
@@ -101,7 +101,7 @@ router.post("/:dayId", editDay);
 
 /**
  * @swagger
- * /days/{dayId}:
+ * /api/days/{dayId}:
  *   delete:
  *     summary: Remove the day by id
  *     tags: [Days]

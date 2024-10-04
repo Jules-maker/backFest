@@ -9,7 +9,7 @@ const router = require("express").Router();
 
 /**
  * @swagger
- * /venues:
+ * /api/venues:
  *   post:
  *     summary: Add a new venue
  *     tags: [Venues]
@@ -29,7 +29,7 @@ router.post("/", addVenue);
 
 /**
  * @swagger
- * /venues:
+ * /api/venues:
  *   get:
  *     summary: Returns a list of venues
  *     tags: [Venues]
@@ -47,7 +47,7 @@ router.get("/", venuesList);
 
 /**
  * @swagger
- * /venues/{venueId}:
+ * /api/venues/{venueId}:
  *   get:
  *     summary: Get the venue by id
  *     tags: [Venues]
@@ -72,7 +72,7 @@ router.get("/:venueId", venueDetails);
 
 /**
  * @swagger
- * /venues/{venueId}:
+ * /api/venues/{venueId}:
  *   post:
  *     summary: Update the venue by the id
  *     tags: [Venues]
@@ -101,7 +101,7 @@ router.post("/:venueId", editVenue);
 
 /**
  * @swagger
- * /venues/{venueId}:
+ * /api/venues/{venueId}:
  *   delete:
  *     summary: Remove the venue by id
  *     tags: [Venues]
