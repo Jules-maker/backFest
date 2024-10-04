@@ -4,12 +4,12 @@ const options = {
     definition: {
         openapi: '3.0.0',
         info: {
-            title: 'API Documentation',
+            title: 'Electric Lamb API',
             version: '1.0.0',
-            description: 'API documentation for your project',
+            description: 'API documentation for Electric Lamb',
         },
     },
-    apis: ['./src/routes/*.js'], // Path to the API docs
+    apis: ['./src/routes/*.js', './src/database/models/*.js'], // Path to the API docs
 };
 
 const swaggerSpec = swaggerJSDoc(options);
