@@ -24,10 +24,6 @@ const artistSchema = schema({
         spotify: {
             type: String,
         },
-        events: [{
-            type: mongoose.Schema.Types.ObjectId,
-            ref: 'Event',
-        }],
     },
     {timestamps: true}
 );

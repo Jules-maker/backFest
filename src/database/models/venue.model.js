@@ -16,10 +16,6 @@ const venueSchema = schema({
                 required: true,
             },
         },
-        events: [{
-            type: mongoose.Schema.Types.ObjectId,
-            ref: 'Event',
-        }],
     },
     {timestamps: true}
 );

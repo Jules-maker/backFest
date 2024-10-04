@@ -11,7 +11,6 @@ const venues = [
             lat: 49.44430296461854,
             lng: 1.0537332888960669,
         },
-        events: [], // Liste des ObjectId d'événements associée (pour l'instant vide)
     },
     {
         name: 'Chai à vin',
@@ -19,7 +18,6 @@ const venues = [
             lat: 49.44546381087562,
             lng: 1.0580005274141007,
         },
-        events: [], // Liste des ObjectId d'événements associée (pour l'instant vide)
     },
 ];
 
