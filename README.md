@@ -24,6 +24,10 @@ Projet d'école qui a pour objectif de créer une application d'accès aux plann
 Dates : 03/10/2024 - 04/10/2024
 
 ## API Reference
+
+## Plus de détails sur les api ici : 
+[Lien vers le détails des API](https://google.com)
+
 #### Get all user
 ```http
   GET /api/user
