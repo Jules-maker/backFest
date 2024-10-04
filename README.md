@@ -34,9 +34,9 @@ Dates : 03/10/2024 - 04/10/2024
 | :-------- | :------- | :------------------------- |
 |   `user`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
 
-#### Artist
-| Parameter    | Type     | Description                                                                 |
-|--------------|----------|-----------------------------------------------------------------------------|
+#### ARTIST
+| Parameter    | Type     |  Description                                      |
+|--------------|----------|---------------------------------------------------|
 |   `name`     | `string` | Nom de l'artiste.|
 |   `bio`      | `string` | Biographie de l'artiste.|
 |   `genre`    | `string` | Genre musical de l'artiste.|
@@ -44,16 +44,25 @@ Dates : 03/10/2024 - 04/10/2024
 |   `socialMedia` | `string` | Liens vers les réseaux sociaux de l'artiste.|
 |   `spotify`  | `string` | Lien Spotify de l'artiste.|
 
-
-events
-
-
-
+#### DATE
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+| `Date`      | `date` | Jour et mois de l'évènement |
 
-#### add(num1, num2)
+#### EVENT
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `name`    | `string` | Nom de l'évènement |
+| `description`    | `string` | Description de l'évènement |
+| `startTime`    | `string` | Heure de début de l'évènement (HH:mm) |
+| `endTime`    | `string` | Heure de fin de l'évènement (HH:mm) |
 
-Takes two numbers and returns the sum.
+#### EVENT
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `name`    | `string` | Nom de l'évènement |
+| `description`    | `string` | Description de l'évènement |
+| `startTime`    | `string` | Heure de début de l'évènement (HH:mm) |
+| `endTime`    | `string` | Heure de fin de l'évènement (HH:mm) |
+
 
