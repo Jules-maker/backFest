@@ -34,11 +34,35 @@ Dates : 03/10/2024 - 04/10/2024
 | :-------- | :------- | :------------------------- |
 |   `user`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
 
-#### Get item
+#### Artist
 
-```http
-  GET /api/items/${id}
-```
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+|   `name`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+|   `bio`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+|   `name`  | `string` | Entrez /api/user pour remonter la liste de tout les genres |
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+|   `image`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+|   `socialMedia`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+|   `spotify`  | `string` | Entrez /api/user pour remonter la liste de tout les artistes |
+
+events
+
+
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
