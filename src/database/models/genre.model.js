@@ -6,14 +6,6 @@ const genreSchema = schema({
             type: String,
             required: true,
         },
-        artists: [{
-            type: mongoose.Schema.Types.ObjectId,
-            ref: 'Artist',
-        }],
-        events: [{
-            type: mongoose.Schema.Types.ObjectId,
-            ref: 'Event',
-        }],
     },
     {timestamps: true}
 );

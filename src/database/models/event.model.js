@@ -22,7 +22,7 @@ const eventSchema = schema({
             type: mongoose.Schema.Types.ObjectId,
             ref: 'Day',
         }],
-        artists: [{
+        artist: [{
             type: mongoose.Schema.Types.ObjectId,
             ref: 'Artist',
         }],
