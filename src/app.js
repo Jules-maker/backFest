@@ -1,4 +1,6 @@
 const express = require('express')
+const swaggerUi = require('swagger-ui-express');
+const swaggerSpec = require('./swaggerConfig');
 const path = require("path");
 const router = require("./routes");
 const cors = require('cors');
@@ -6,6 +8,8 @@ require('dotenv').config();
 require("./database");
 
 const app = express();
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.use("/api/public", express.static(path.join(__dirname, "../public")));
 app.use(express.json());
